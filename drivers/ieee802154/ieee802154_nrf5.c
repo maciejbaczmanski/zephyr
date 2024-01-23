@@ -888,8 +888,8 @@ static int nrf5_configure(const struct device *dev,
 		bool valid_vendor_specific_ie = false;
 
 		if (config->ack_ie.purge_ie) {
-			nrf_802154_ack_data_remove_all(false, NRF_802154_ACK_DATA_IE);
-			nrf_802154_ack_data_remove_all(true, NRF_802154_ACK_DATA_IE);
+			// nrf_802154_ack_data_remove_all(false, NRF_802154_ACK_DATA_IE);
+			// nrf_802154_ack_data_remove_all(true, NRF_802154_ACK_DATA_IE);
 			break;
 		}
 
